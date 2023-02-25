@@ -50,7 +50,7 @@
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
-    <p>   { ⚠️ Download the files and then click on the index.html ~free are not fast enough to load 3d assets! & The site is not yet optimized for mobile or tablet view so you can only view it in your pc/laptop! }
+    <p>   { ⚠️ Download the files and then click on the index.html ~free servers are not fast enough to load 3d assets! & The site is not yet optimized for mobile or tablet view so you can only view it in your pc/laptop! }
 
 Appy3d is a 3D website that features stunning animations that activate as the user scrolls through the page. I design this for one of my favourite new startups, @Nothing phones. I took a lot of inspiration from Apple's AirPods page, it's son scroll product showcase and etc. Appy3d is an eye-catching and interactive website that showcases the potential of modern web design.
 

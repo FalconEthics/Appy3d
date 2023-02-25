@@ -61,7 +61,7 @@ Appy3d is a 3D website that features stunning animations that activate as the us
 
 ### Built With
 
-Appy3d is built with ReactJS and its new Context API, along with React Router and Hooks. To achieve the 3D graphics and animations, I used GASP and Tailwind, which allowed me to create stunning visual effects and smooth animations that respond to user interaction.
+Appy3d is built with vanilla javascript and its new es6 sytax, along with tailwind css. To achieve the 3D graphics and animations, I used GASP, which allowed me to create stunning visual effects and smooth animations that respond to user interaction.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 

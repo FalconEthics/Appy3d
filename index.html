@@ -2,35 +2,62 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./logo.png" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Appy3d</title>
+    <link rel="icon" type="png" href="./logo.png">
     <link
-            href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
-            rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-            href="https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap"
-            rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap"
+      rel="stylesheet"
     />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Appy3D</title>
   </head>
   <body>
-    <div id="root"></div>
+    <h2 class="pic-text">Looks cool?</h2>
+    <canvas class="canvas w-screen h-screen object-cover"></canvas>
+    <div class="min-h-screen flex justify-center items-center text-4xl">
+      <nav
+        class="nav fixed flex flex-row top-0 left-0 right-0 justify-between text-lg space-x-4 font-extrabold"
+      >
+        <div class="m-4">@ THE NEW NOTHING SITE</div>
+        <div class="flex">
+          <a href="https://in.nothing.tech/pages/phone-1"
+            class="btn bg-white bg-opacity-10 p-2 pl-4 pr-4 mt-3 mr-3 rounded-lg drop-shadow-2xl hover:bg-opacity-20"
+          >
+            Phone 1
+        </a>
+          <a href="https://in.nothing.tech/products/ear-stick"
+            class="btn bg-white bg-opacity-10 p-2 pl-4 pr-4 mt-3 mr-4 rounded-lg drop-shadow-2xl hover:bg-opacity-20"
+          >
+            Ear 1
+        </a>
+        </div>
+      </nav>
+      <div class="shadow-2xl p-4 rounded-2xl flex">
+        <h1 class="font-extrabold p-2">You know whats even more cool?</h1>
+        <a href="https://www.soumik-das.com/" class="end font-extrabold text-sm p-2 m-3 ml-0 bg-black bg-opacity-10 rounded-lg hover:bg-white hover:drop-shadow-lg">this</a>
+      </div>
+    </div>
 
     <script
-            src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"
-            integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw=="
-            crossorigin="anonymous"
-            referrerpolicy="no-referrer"
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"
+      integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     ></script>
     <script
-            src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"
-            integrity="sha512-tHvUcUQYi35zApvAa5TNR3fNhBQkVtkmWKfacnpxmix4/VTGz1lGjIVyLMp7gLgAvg+aKJjnVKokXJNS5GZ+/g=="
-            crossorigin="anonymous"
-            referrerpolicy="no-referrer"
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"
+      integrity="sha512-tHvUcUQYi35zApvAa5TNR3fNhBQkVtkmWKfacnpxmix4/VTGz1lGjIVyLMp7gLgAvg+aKJjnVKokXJNS5GZ+/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     ></script>
-    <script type="module" src="/src/main.jsx"></script>
+    <script src="./app.js"></script>
   </body>
 </html>

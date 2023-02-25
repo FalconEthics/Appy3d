@@ -17,7 +17,9 @@
   <h3 align="center">Appy3d</h3>
 
   <p align="center">
-    - Appy3d is a 3D website that features stunning animations that activate as the user scrolls!   
+    - Appy3d is a 3D website that features stunning animations that activate as the user scrolls!
+  <p align="center">
+    download the files and then click on the index.html ~free are not fast enough to load 3d
     <br />
     <br />
     <a href="https://Appy3d-falconethics.vercel.app/">View Demo</a>

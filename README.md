@@ -17,7 +17,8 @@
   <h3 align="center">Appy3d</h3>
 
   <p align="center">
-    - Appy3d is a 3D website that features stunning animations that activate as the user scrolls!   
+    - Appy3d is a 3D website that features stunning animations that activate as the user scrolls!
+  <p align="center">
     <br />
     <br />
     <a href="https://Appy3d-falconethics.vercel.app/">View Demo</a>
@@ -49,11 +50,12 @@
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
+<<<<<<< HEAD
 
 [![Product Name Screen Shot][product-screenshot]](https://Appy3d-falconethics.vercel.app/)
 
-~First try the site your self! <a href="https://Appy3d-falconethics.vercel.app/">OPEN PAGE</a>
-    <p>   { ⚠️ The site is not yet optimized for mobile or tablet view so you can only view it in your pc/laptop! }
+    <p>   { ⚠️ Download the files and then click on the index.html ~free servers are not fast enough to load 3d assets! & The site is not yet optimized for mobile or tablet view so you can only view it in your pc/laptop! }
+>>>>>>> 2b47292cfd516c4e4649fb807bcfeb7f8cea9499
 
 Appy3d is a 3D website that features stunning animations that activate as the user scrolls through the page. I design this for one of my favourite new startups, @Nothing phones. I took a lot of inspiration from Apple's AirPods page, it's son scroll product showcase and etc. Appy3d is an eye-catching and interactive website that showcases the potential of modern web design.
 

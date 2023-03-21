@@ -1,4 +1,4 @@
-var delay = 3000; // 3 seconds
+var delay = 0; // 3 seconds
 // hide all divs with class "gasp" until the page is fully loaded
 var gaspDivs = document.querySelectorAll('.gasp');
 for (var i = 0; i < gaspDivs.length; i++) {
@@ -18,6 +18,8 @@ setTimeout(function() {
   for (var i = 0; i < gaspDivs.length; i++) {
     gaspDivs[i].style.display = 'flex';
   }
+
+  document.body.style.backgroundColor = 'white';
 
   //the code below is for the animation
 const canvas = document.querySelector(".canvas");

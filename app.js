@@ -34,7 +34,7 @@ const context = canvas.getContext("2d");
 const frameCount = 772;
 
 //this will create the path to the images
-const currentFrame = (index) => `./assets/${(index + 1).toString()}.png`;
+const currentFrame = (index) => `./assets/${(index + 1).toString()}.jpg`;
 
 const images = [];
 let pic = { frame: 0 };

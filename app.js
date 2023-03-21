@@ -6,10 +6,7 @@ for (var i = 0; i < gaspDivs.length; i++) {
 }
 
 // show all divs with class "loading" for the first 3 seconds
-var loadingDivs = document.querySelectorAll('.loading');
-for (var i = 0; i < loadingDivs.length; i++) {
-  loadingDivs[i].style.display = 'block';
-}
+var loadingDivs = document.querySelectorAll('.wait');
 
 setTimeout(function() {
   // hide all divs with class "loading" after 3 seconds
@@ -19,12 +16,10 @@ setTimeout(function() {
   
   // show all divs with class "gasp"
   for (var i = 0; i < gaspDivs.length; i++) {
-    gaspDivs[i].style.display = 'block';
+    gaspDivs[i].style.display = 'flex';
   }
-}, delay);
 
-setTimeout(function() {
-//the code below is for the animation
+  //the code below is for the animation
 const canvas = document.querySelector(".canvas");
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;

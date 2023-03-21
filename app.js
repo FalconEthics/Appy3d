@@ -1,3 +1,30 @@
+var delay = 3000; // 3 seconds
+// hide all divs with class "gasp" until the page is fully loaded
+var gaspDivs = document.querySelectorAll('.gasp');
+for (var i = 0; i < gaspDivs.length; i++) {
+  gaspDivs[i].style.display = 'none';
+}
+
+// show all divs with class "loading" for the first 3 seconds
+var loadingDivs = document.querySelectorAll('.loading');
+for (var i = 0; i < loadingDivs.length; i++) {
+  loadingDivs[i].style.display = 'block';
+}
+
+setTimeout(function() {
+  // hide all divs with class "loading" after 3 seconds
+  for (var i = 0; i < loadingDivs.length; i++) {
+    loadingDivs[i].style.display = 'none';
+  }
+  
+  // show all divs with class "gasp"
+  for (var i = 0; i < gaspDivs.length; i++) {
+    gaspDivs[i].style.display = 'block';
+  }
+}, delay);
+
+setTimeout(function() {
+//the code below is for the animation
 const canvas = document.querySelector(".canvas");
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
@@ -73,3 +100,4 @@ setInterval(() => {
   nav.classList.toggle("text-white");
 }, 500);
 
+}, delay);
